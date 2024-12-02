@@ -8,7 +8,7 @@ public class Fibonacci15 {
     }
     public static void main(String[] args) {
         int bulan = 12;
-        int jmlMarmut = fibonacci(bulan);
+        fibonacci(bulan);
         System.out.println("Jumlah pasangan marmut pada akhir bulan ke-" + bulan + " adalah " + fibonacci(bulan));
     }
 }
